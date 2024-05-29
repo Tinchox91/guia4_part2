@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Martin\\INSTIUTTO IDRA\\Introducci\u00F3n a la programaci\u00F3n\\TRABAJOS PRACTICOS\\Guia4_part2\\",
+  "WorkspaceRootPath": "C:\\Users\\tinch\\OneDrive\\Documentos\\IDRA\\PROGRAMACION\\TP\\guia4_part2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F166F7E-C680-4A1D-94B2-1720807501DE}|Guia4_part2\\Guia4_part2.csproj|d:\\martin\\instiutto idra\\introducci\u00F3n a la programaci\u00F3n\\trabajos practicos\\guia4_part2\\guia4_part2\\ejercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F166F7E-C680-4A1D-94B2-1720807501DE}|Guia4_part2\\Guia4_part2.csproj|solutionrelative:guia4_part2\\ejercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tinch\\OneDrive\\Documentos\\IDRA\\PROGRAMACION\\TP\\guia4_part2\\Guia4_part2\\Inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Guia4_part2\\Inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F166F7E-C680-4A1D-94B2-1720807501DE}|Guia4_part2\\Guia4_part2.csproj|D:\\Martin\\INSTIUTTO IDRA\\Introducci\u00F3n a la programaci\u00F3n\\TRABAJOS PRACTICOS\\Guia4_part2\\guia4_part2\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F166F7E-C680-4A1D-94B2-1720807501DE}|Guia4_part2\\Guia4_part2.csproj|solutionrelative:guia4_part2\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tinch\\OneDrive\\Documentos\\IDRA\\PROGRAMACION\\TP\\guia4_part2\\Guia4_part2\\Ejercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Guia4_part2\\Ejercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,26 +30,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Ejercicios.cs",
-              "DocumentMoniker": "D:\\Martin\\INSTIUTTO IDRA\\Introducci\u00F3n a la programaci\u00F3n\\TRABAJOS PRACTICOS\\Guia4_part2\\Guia4_part2\\Ejercicios.cs",
+              "DocumentMoniker": "C:\\Users\\tinch\\OneDrive\\Documentos\\IDRA\\PROGRAMACION\\TP\\guia4_part2\\Guia4_part2\\Ejercicios.cs",
               "RelativeDocumentMoniker": "Guia4_part2\\Ejercicios.cs",
-              "ToolTip": "D:\\Martin\\INSTIUTTO IDRA\\Introducci\u00F3n a la programaci\u00F3n\\TRABAJOS PRACTICOS\\Guia4_part2\\Guia4_part2\\Ejercicios.cs",
+              "ToolTip": "C:\\Users\\tinch\\OneDrive\\Documentos\\IDRA\\PROGRAMACION\\TP\\guia4_part2\\Guia4_part2\\Ejercicios.cs",
               "RelativeToolTip": "Guia4_part2\\Ejercicios.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQBAABAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T01:39:20.052Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Inicio.cs",
-              "DocumentMoniker": "D:\\Martin\\INSTIUTTO IDRA\\Introducci\u00F3n a la programaci\u00F3n\\TRABAJOS PRACTICOS\\Guia4_part2\\Guia4_part2\\Inicio.cs",
+              "DocumentMoniker": "C:\\Users\\tinch\\OneDrive\\Documentos\\IDRA\\PROGRAMACION\\TP\\guia4_part2\\Guia4_part2\\Inicio.cs",
               "RelativeDocumentMoniker": "Guia4_part2\\Inicio.cs",
-              "ToolTip": "D:\\Martin\\INSTIUTTO IDRA\\Introducci\u00F3n a la programaci\u00F3n\\TRABAJOS PRACTICOS\\Guia4_part2\\Guia4_part2\\Inicio.cs",
+              "ToolTip": "C:\\Users\\tinch\\OneDrive\\Documentos\\IDRA\\PROGRAMACION\\TP\\guia4_part2\\Guia4_part2\\Inicio.cs",
               "RelativeToolTip": "Guia4_part2\\Inicio.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAUAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAwwBAAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T01:38:42.179Z",
               "EditorCaption": ""

@@ -10,7 +10,7 @@ namespace Guia4_part2
     {
         public void sumarNumeros() {
             int n = 0;
-            int suma=0;
+            int suma = 0;
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Para salir oprima '0'");
             do {
@@ -20,28 +20,28 @@ namespace Guia4_part2
                 n = int.Parse(Console.ReadLine());
 
                 suma += n;
-            } while (n!=0) ;
+            } while (n != 0);
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine("La suma es: "+suma);
+            Console.WriteLine("La suma es: " + suma);
             Console.ReadKey();
 
         }
-       
+
         public void contar()
         {
             int num;
             int cont = 0;
-           int cont2 = 0;
+            int cont2 = 0;
             do
             {
                 num = 0;
                 cont2 = 0;
                 Console.Write("Ingrese un numero: ");
-                cont=int.Parse(Console.ReadLine());
+                cont = int.Parse(Console.ReadLine());
                 while (cont2 < cont)
                 {
                     cont2++;
-                    
+
                     if (cont2 == cont)
                     {
                         Console.Write(cont2);
@@ -54,11 +54,11 @@ namespace Guia4_part2
                 Console.WriteLine("\n Oprima '0' para salir o otro numero para continuar...");
                 num = int.Parse(Console.ReadLine());
             } while (num != 0);
-           
+
         }
         public void convertir()
         {
-            int contador =0;
+            int contador = 0;
             double celcius = 0;
             double far;
             int contador2;
@@ -68,14 +68,14 @@ namespace Guia4_part2
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Write("Ingrese los grados Celsius: ");
                 Console.ForegroundColor = ConsoleColor.White;
-                celcius =double.Parse(Console.ReadLine());
-                far=1.8 *celcius+32;
+                celcius = double.Parse(Console.ReadLine());
+                far = 1.8 * celcius + 32;
                 Console.ForegroundColor = ConsoleColor.DarkBlue;
                 Console.WriteLine($"Total seria: {celcius}° = {far}F");
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Write("Desea continuar? - Apretar cualquier numero para SI / '0' par SALIR ");
                 Console.ForegroundColor = ConsoleColor.White;
-                contador2=int.Parse(Console.ReadLine());
+                contador2 = int.Parse(Console.ReadLine());
 
             } while (contador2 != 0);
         }
@@ -239,7 +239,7 @@ if (num % 2 == 0)
                 Console.Write("Ingrese Radio: ");
                 Console.ForegroundColor = ConsoleColor.White;
                 radio = double.Parse(Console.ReadLine());
-                area=1.14* (radio*radio);
+                area=3.14* (radio*radio);
                 Console.ForegroundColor= ConsoleColor.Green;
                 Console.WriteLine("El area es: "+area);
 
@@ -319,5 +319,152 @@ if (num % 2 == 0)
             } while (salir!=0);
             
         }
+        public void calcularPromedios()
+        {
+            double num, prom,cantidad;
+            int cont = 0;
+            int val2 = 0;
+            cantidad = 0;
+            do
+            {
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
+                Console.WriteLine("Ingrese '0' para salir...");
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.WriteLine("Ingresa un numero ");
+                num = double.Parse(Console.ReadLine());
+                if (num != 0)
+                {
+                    cantidad +=num;
+                }
+                else
+                {
+                    break;
+                }
+                
+                cont ++;
+            } while (num!=0);
+            prom = cantidad / cont;
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.WriteLine($"El promedio total de {cont} numeros es: {prom}");
+            Console.ReadKey();
+        }
+        public void adivinar()
+        {
+            Random random = new Random();
+            int numeroScreto = random.Next(1, 100);
+            Console.WriteLine(numeroScreto);
+            int num = 0;
+            int cont = 0;
+            int val;
+              
+            do
+            {
+                Console.Write("Ingrese un numero: ");
+                val = int.Parse(Console.ReadLine());
+                cont++;
+                if (val == numeroScreto)
+                {
+                    Console.ForegroundColor = ConsoleColor.Magenta;
+                    Console.WriteLine("Numero Descubierto!!!!!");
+                    cont = 100;
+                }
+            } while (cont!=100);
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.ReadKey();
+                
+        }
+        public void numeroPrimo()
+        {
+            double num, primo;
+            Boolean esPrimo = false;
+            int cont = 0;
+            do
+            {
+                esPrimo = false;
+                cont = 2;
+                primo = 0;
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.Write("Ingresar numero: ");
+                num = double.Parse(Console.ReadLine());
+                
+                if (num == 1)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("NO ES PRIMO");
+                }
+                else
+                {
+                    while (cont<=Math.Sqrt(num))
+                    {
+                        if (num % cont == 0)
+                        {
+                            esPrimo = true;
+                        }
+                        
+                        cont++;
+                    }
+                    if (esPrimo)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("NO ES PRIMO");
+                    }
+                    else
+                    {
+                        Console.ForegroundColor = ConsoleColor.DarkBlue;
+                        Console.WriteLine(" ES PRIMO");
+                    }
+                }
+                
+
+               
+            } while (num!=0);
+          
+           
+            Console.ReadKey();
+        }
+        public void reversar()
+        {
+            string cadena1;
+            string cadena2 = "";
+            int val = 0;
+            int cont,indice;
+
+            do
+            {
+                indice = 0;
+                cont = 0;
+                cadena2 = "";
+               
+                Console.ForegroundColor = ConsoleColor.DarkGreen;
+                Console.WriteLine("Ingrese cadena");
+                Console.ForegroundColor = ConsoleColor.White;
+                cadena1 = Console.ReadLine();
+                int longi = cadena1.Length;
+                while (cont!=cadena1.Length)
+                {
+                    indice = longi - cont;
+                    cadena2+= cadena1[indice-1];
+                    cont++;
+                }
+                
+                Console.Write("La palabra en reversa: ");
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
+                Console.Write(cadena2);
+                try
+                {
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.WriteLine("\n Quiere continuar?...Ingresar 0 para salir");
+                    val = int.Parse(Console.ReadLine());
+                }
+                catch (Exception)
+                {
+
+                    val = 2;  
+                }
+                
+            } while (val!=0);
+            Console.ReadLine();
+        }
+        }
     }
-}
+
